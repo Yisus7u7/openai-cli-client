@@ -37,6 +37,20 @@ git clone --depth 1 https://github.com/Yisus7u7/openai-cli-client; cd openai-cli
 
 make PREFIX=$PREFIX OPTDIR=$PREFIX/opt all
 ```
+# OpenAI Token
+
+Yout need [OpenAI token](https://platform.openai.com/docs/introduction/tokens) for works
+
+Add your token by editing `~/.config/openai_client.conf`
+If the file does not exist, the first time you run the program will be created.
+
+**example**
+
+```bash
+[openai]
+token = YOU_TOKEN_HERE
+```
+
 # Contribute
 
 - You can help by sending changes and improvements to the repository
