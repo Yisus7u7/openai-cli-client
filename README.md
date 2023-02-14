@@ -20,7 +20,7 @@ sudo make install
 In Android (Termux)
 
 ```bash
-pkg install python clang build-essential python-pip
+pkg install python clang build-essential python-pip git
 ```
 
 ```bash
