@@ -1,4 +1,4 @@
-openai-cli-client a best OpenAI terminal client, writen in python
+openai-cli-client: a best OpenAI terminal client, writen in python
 
 # Features
 - Remember messages
@@ -7,7 +7,7 @@ openai-cli-client a best OpenAI terminal client, writen in python
 
 # Installation
 
-in Linux OS:
+In Linux OS:
 
 Needs:
 
@@ -15,7 +15,7 @@ Needs:
 - python-pygments
 - python-pyxdg
 
-and run in te project dir:
+and run in the project dir:
 
 ```bash
 sudo make install
