@@ -46,6 +46,10 @@ git clone --depth 1 https://github.com/Yisus7u7/openai-cli-client; cd openai-cli
 
 make PREFIX=$PREFIX OPTDIR=$PREFIX/opt all
 ```
+# Run chat
+
+use `openai-cli-client` command for open chat
+
 # OpenAI Token
 
 You need [OpenAI token](https://platform.openai.com/docs/introduction/tokens) for works
