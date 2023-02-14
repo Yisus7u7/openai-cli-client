@@ -1,5 +1,10 @@
 openai-cli-client a best OpenAI terminal client, writen in python
 
+# Features
+- Remember messages
+- Interactive chat
+- Syntactic highlighting (basic)
+
 # Installation
 
 in Linux OS:
