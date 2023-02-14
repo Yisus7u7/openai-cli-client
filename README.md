@@ -39,7 +39,7 @@ make PREFIX=$PREFIX OPTDIR=$PREFIX/opt all
 ```
 # OpenAI Token
 
-Yout need [OpenAI token](https://platform.openai.com/docs/introduction/tokens) for works
+You need [OpenAI token](https://platform.openai.com/docs/introduction/tokens) for works
 
 Add your token by editing `~/.config/openai_client.conf`
 If the file does not exist, the first time you run the program will be created.
