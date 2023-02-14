@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+SYSTEM=$(uname -o)
+
+if [ $SYSTEM == "Android" ]; then
+  EXEC_PATH="/data/data/com.termux/files/usr/opt/openai"
+else
+  EXEC_PATH="/opt/openai"
+fi
+
+exec $EXEC_PATH/openai_chat.py
