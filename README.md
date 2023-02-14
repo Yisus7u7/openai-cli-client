@@ -29,7 +29,7 @@ pip install openai pygments pyxdg
 ```
 
 ```bash
-git clone --detpth 1 https://github.com/Yisus7u7/openai-cli-client; cd openai-cli-client
+git clone --depth 1 https://github.com/Yisus7u7/openai-cli-client; cd openai-cli-client
 
 ```
 
