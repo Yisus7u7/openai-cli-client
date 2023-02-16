@@ -1,4 +1,9 @@
-openai-cli-client: a best OpenAI terminal client, writen in python
+openai-cli-client: A best OpenAI terminal client, writen in python
+
+# Supported systems
+- GNU/Linux
+- Unix systems (Like MacOS or BSD)
+- Android
 
 # Preview
 ![image](https://user-images.githubusercontent.com/64093255/218856689-2449f1b5-8724-4693-9bef-e2beaa915a59.png)
@@ -19,6 +24,15 @@ Needs:
 - python-pygments
 - python-pyxdg
 
+Note: install on Manjaro or Archlinux using AUR helper, example:
+```bash
+paru -S python-openai python-pygments python-pyxdg
+```
+On another distro use pip for install dependencies:
+```bash
+pip install --local openai pygments pyxdg
+```
+
 and run in the project dir:
 
 ```bash
@@ -38,7 +52,7 @@ pip install openai pygments pyxdg
 ```
 
 ```bash
-git clone --depth 1 https://github.com/Yisus7u7/openai-cli-client; cd openai-cli-client
+git clone --depth 1 https://github.com/Yisus7u7/openai-cli-client; cd openai-cli-client; mkdir ~/.config
 
 ```
 
