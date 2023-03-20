@@ -18,17 +18,21 @@ config = configparser.ConfigParser()
 try:
     config.read(f"{user_config}/openai_client.conf")
     api_token = config.get('openai', 'token')
-except:
+
+except configparser.NoSectionError:
     print("Error: File does not exist ~/.config/openai_client.conf")
     print("Creating a new configuration file...\n")
     sleep(3)
-    print("Finished, you can enter your token by editing ~/.config/openai_client.conf")
+
+    user_token = input("Enter your token ==> ")
+
     config["openai"] = {
-            "token": ""
+            "token": user_token
         }
     with open(f"{user_config}/openai_client.conf", "w") as archivo_config:
         config.write(archivo_config)
-    
+
+    print("Finished, you can edit your token by editing ~/.config/openai_client.conf")
     exit(1)
 
 openai.api_key = api_token
